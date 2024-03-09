@@ -1,14 +1,15 @@
-import userData from "../userData.json";
-import Profile from "./Profile.jsx";
-import friends from "../friends.json";
-import FriendList from "./FriendList.jsx";
-import transactions from "../transactions.json";
-import TransactionHistory from "./TransactionHistory.jsx";
+import userData from "../data/userData.json";
+import Profile from "./Profile/Profile.jsx";
+import friends from "../data/friends.json";
+import FriendList from "./FriendList/FriendList.jsx";
+import transactions from "../data/transactions.json";
+import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx";
+
 
  const App = () => {
  return (
   <>
-  <Profile
+  <Profile 
     name={userData.username}
     tag={userData.tag}
     location={userData.location}

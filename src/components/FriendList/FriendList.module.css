@@ -1,0 +1,22 @@
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px 20px 0 20px;
+  width: 100px;
+  height: 200px;
+  margin: 20px;
+}
+.friendList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
